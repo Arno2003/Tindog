@@ -1,0 +1,176 @@
+#title {
+  background-color: #ff4c68;
+  height: 753px;
+}
+
+#kaaluTop {
+  margin-top: 70px;
+  width: 60%;
+}
+
+#title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-top: 30px;
+  position: relative;
+  /* z-index: -1; */
+}
+
+/* .zMinusOne{
+    z-index: -1;
+  } */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.nav-item {
+  padding: 7%;
+}
+
+.heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 2;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif-bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.images {
+  text-align: justify;
+  float: left;
+}
+
+#features {
+  color: #ff4c68;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+p {
+  color: grey;
+}
+
+.icons {
+  background-color: white;
+}
+
+.icons:hover {
+  background-color: white;
+  color: #ef8172;
+  margin: 0px;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: justify;
+}
+
+.testimonials-text {
+  text-align: center;
+  font-family: "Montserrat-bold", sans-serif;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  border-width: 30px;
+  margin: 20px;
+  padding: 0 30% 0 30%;
+}
+
+.carousel-item {
+  padding: 5%;
+}
+
+#press {
+  padding: 3%;
+  padding-top: 0;
+  background-color: #ef8172;
+}
+
+.pricing-text {
+  padding: 2.5%;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(80, 80, 80);
+}
+
+.card-header {
+  color: rgb(62, 64, 63);
+  font-family: "Montserrat", sans-serif;
+}
+
+.price {
+  color: rgb(232, 129, 129);
+  font-family: fantasy;
+}
+
+.logo {
+  width: 15%;
+  margin: 50px 50px 50px 50px;
+}
+
+#footer {
+  padding: 3.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(255, 255, 255);
+}
+
+#cta {
+  padding: 0.5%;
+  background-color: #ff4c68;
+  font-family: Montserrat-black;
+}
+
+.cta-heading {
+  font-family: 'Montserrat' sans-serif;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+#footer {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer-top {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 700px) {
+  #title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .title-heading {
+    text-align: center;
+  }
+}
